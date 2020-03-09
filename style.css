@@ -1,0 +1,25 @@
+body {
+/*background-color: grey;*/
+}
+.content {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 370px;
+    height: 370px;
+    background: -moz-linear-gradient(transparent 60%, #fff 80%);
+    background: -webkit-linear-gradient(transparent 60%, #fff 80%);
+    background: -o-linear-gradient(transparent 60%, #fff 80%);
+    background: -ms-linear-gradient(transparent 60%, #fff 80%);
+    background: linear-gradient(transparent 60%, #fff 80%);
+}
